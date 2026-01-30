@@ -396,3 +396,37 @@ nav a{
         gap: 40px;
     }
 }
+
+/* Mobile Floating Resume Button */
+@media screen and (max-width: 768px) {
+    /* Hide original resume button from sidebar on mobile */
+    .sidebar .resume-download {
+        display: none;
+    }
+    
+    /* Show floating button on mobile */
+    .mobile-resume-btn {
+        display: block;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+    }
+    
+    .mobile-resume-btn .resume-btn {
+        width: auto;
+        min-width: 180px;
+        padding: 12px 24px;
+        border-radius: 30px;
+        font-size: 15px;
+        font-weight: 600;
+        box-shadow: 0 4px 20px rgba(7, 119, 134, 0.3);
+    }
+}
+
+/* For desktop - hide floating button */
+@media screen and (min-width: 769px) {
+    .mobile-resume-btn {
+        display: none;
+    }
+}
