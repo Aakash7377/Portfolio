@@ -1,1 +1,1 @@
-# Portfolio
+A responsive personal portfolio website built using HTML, CSS, and JavaScript, showcasing projects, skills, achievements, and contact information with smooth animations, modern UI design, and mobile-friendly user experience across devices.
